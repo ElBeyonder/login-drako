@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="4323b7a5-7660-40b9-bfe8-853a0a13819c" name="local" url="http://localhost/login-webfenix/">
+        <fileTransfer mountedRoot="E:\xampp\htdocs\login-webfenix" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>

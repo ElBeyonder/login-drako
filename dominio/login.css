@@ -130,6 +130,10 @@ body{
     max-width: 100px;
 }
 
+a{
+  color: var(--color_secundario);
+}
+
 /* font key */
 .fa-key{
     font-size: 15pt;
@@ -140,21 +144,26 @@ body{
 .textos-informs{
     margin: 0.5rem;
     font-family: 'Roboto', sans-serif;
-    color: gray;
+    color: black;
 }
 
 /*  responsive desing */
 @media only screen and (max-width: 986px) {
 
     body{
-        background-image: url("imagenes/fondo-wifi.jpg") !important;
-        background-size: cover, cover;
+        background-image: url("imagenes/fondo-negro-rojo.jpg") !important;
+        background-size: cover, 100%;
         background-repeat: no-repeat;
         background-position: center;
+        min-height: 100vh !important;
     }
-
+    .content-all{
+        min-height: 100vh;
+        height: 100% !important;
+    }
     .content_divs{
         width: 100%;
+        min-height: 100vh !important;
         padding: 1rem;
         display: flex;
         justify-content: center;
@@ -165,8 +174,9 @@ body{
     .content_formulario{
         width: 60%;
         height: auto !important;
-        min-height: 100px;
-        display: inline-grid;
+        min-height: 100px !important;
+        max-height: 98% !important;
+        display: grid;
     }
 
 
@@ -175,7 +185,7 @@ body{
 @media only screen and (max-width: 630px) {
 
     .content_formulario{
-        width: 90% ;
+        width: 90%;
 
     }
 }

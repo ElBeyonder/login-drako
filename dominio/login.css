@@ -199,9 +199,12 @@ a{
     box-sizing: border-box;
     right: 0;
     top: 0;
-
-
 }
+
+.content2{
+    display: none;
+}
+
 
 .fa-window-close{
     color: red;

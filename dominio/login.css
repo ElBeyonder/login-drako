@@ -147,8 +147,19 @@ a{
     color: black;
 }
 
+#modal_anuncios{
+    max-height: 100vh;
+}
+
 /*  responsive desing */
 @media only screen and (max-width: 986px) {
+
+
+    #modal_anuncios{
+        width: 90%;
+        box-sizing: border-box;
+        height: auto;
+    }
 
     body{
         background-image: url("imagenes/fondo-negro-rojo.jpg") !important;

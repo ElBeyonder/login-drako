@@ -1,2 +1,2 @@
 <?php
-    $link_media = 'http://drakopartes.duckdns.org/drakopublic/';
+    $link_media = 'http://localhost/login-webfenix/drakopublic/';

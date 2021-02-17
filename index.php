@@ -195,7 +195,7 @@
             <div id="htmlext" class="recargar"></div>
             <div align="center" class="content">
                 <div class="textopu">
-                    <h1>ESPERE -->   <span id="countdown">15</span></h1>
+                    <h1>ESPERE --><span id="countdown">15</span></h1>
                 </div>
             </div>
 
@@ -231,7 +231,7 @@
                 aleat = Math.random() * direcciones.length
                 aleat = Math.floor(aleat)
 
-                $("#htmlext").load('http://drakopartes.duckdns.org/drakopublic/'+direcciones[aleat]);
+                $("#htmlext").load('http://localhost/login-webfenix/drakopublic/'+direcciones[aleat]);
 
             }
     </script>

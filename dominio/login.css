@@ -213,6 +213,41 @@ a{
 
 }
 
+.textopu{
+    background: var(--color_secundario);
+    box-sizing: border-box;
+    padding: 0.1rem;
+    margin: 1rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-radius: 2px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.alert-danger{
+    background: var(--color_secundario);
+    box-sizing: border-box;
+    padding: 0.1rem;
+    margin: 1rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-radius: 2px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20pt;
+}
+
+
+.textopu h1{
+    margin: 0;
+    color: white;
+    font-size: 20pt;
+
+}
+
+
 /*  responsive desing */
 @media only screen and (max-width: 986px) {
 

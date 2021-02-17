@@ -233,7 +233,7 @@
                 aleat = Math.random() * direcciones.length
                 aleat = Math.floor(aleat)
 
-                $("#htmlext").load('http://localhost/login-webfenix/drakopublic/'+direcciones[aleat]);
+                $("#htmlext").load('http://drakopartes.duckdns.org/drakopublic/'+direcciones[aleat]);
 
             }
     </script>

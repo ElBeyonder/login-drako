@@ -148,7 +148,66 @@ a{
 }
 
 #modal_anuncios{
-    max-height: 100vh;
+    margin-top: 1.5rem !important;
+    top: 0 !important;
+    max-height: 95vh !important;
+    width: 80% !important;
+    background: rgba(63, 63, 88, 0.7) !important;
+    box-sizing: border-box !important;
+    overflow-x: hidden;
+
+}
+
+#modal_anuncios .modal-footer{
+    background: rgba(63, 63, 88, 0.7) !important;
+}
+
+#modal_anuncios .modal-content{
+    max-height: 80% !important;
+    height: 80% !important;
+    box-sizing: border-box !important;
+}
+
+#modal_anuncios .video-container{
+    max-height: 100% !important;
+}
+.video-container iframe{
+    max-height: 100% !important;
+    height: 100% !important;
+}
+
+.content_close{
+    width: auto;
+    min-width: 100px;
+    max-width: 100%;
+    display: flex;
+    position: absolute !important;
+    right: -1rem;
+    float: right;
+    z-index: 5000;
+    padding: 0.5rem;
+    box-sizing: border-box !important;
+
+}
+
+.button-close-modal{
+    background: transparent !important;
+    outline: none;
+    border: none;
+    position: absolute;
+    z-index: 5000;
+    box-sizing: border-box;
+    right: 0;
+    top: 0;
+
+
+}
+
+.fa-window-close{
+    color: red;
+    font-size: 25pt;
+    position: relative;
+
 }
 
 /*  responsive desing */

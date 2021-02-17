@@ -19,8 +19,6 @@
     }
     if (isset($_POST['trial'])){
         $trial=$_POST['trial'];
-    }else{
-        $trial='yes';
     }
     if (isset($_POST['login-by'])){
         $loginby=$_POST['login-by'];
